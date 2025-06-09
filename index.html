@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Periodic Table</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+        <header><h1>After</h1></header>
+        <header id="period"><h1>Periodic Table</h1></header>
+    <br /><br /><br />
+
+    <table style="margin: auto;">
+        <tr>
+            <th data-col="1" class="hidro" style="background:rgb(45, 202, 202); background: linear-gradient(45deg, rgb(45, 202, 202), rgb(45, 202, 202));">
+                <abbr title="Hydrogen">H</abbr>
+            </th>
+            <th data-col="2" colspan="16" id="space" style="background:rgb(254, 255, 218); background: linear-gradient(45deg, rgb(254, 255, 218), rgb(254, 255, 218));"></th>
+            <th data-col="18" class="purple" style="background:#a36ffd; background: linear-gradient(45deg, #a36ffd, #a36ffd);">
+                <abbr title="Helium">He</abbr>
+            </th>
+        </tr>
+        <tr>
+            <th class="yellow" style="background:rgb(210, 185, 44); background: linear-gradient(45deg, rgb(210, 185, 44), rgb(210, 185, 44));">
+                <abbr title="Lithium">Li</abbr>
+            </th>
+            <th class="orange" style="background:orange; background: linear-gradient(45deg,orange, orange);">
+                <abbr title="Beryllium">Be</abbr>
+            </th>
+            <th colspan="10" id="space"></th>
+            <th class="gray" style="background:#7d8281; background: linear-gradient(45deg,#7d8281, #7d8281);">
+                <abbr title="Boron">B</abbr>
+            </th>
+            <th class="darkpink" style="background:#e10980; background: linear-gradient(45deg,#e10980, #e10980);">
+                <abbr title="Carbon">C</abbr>
+            </th>
+            <th class="darkpink" style="background:#e10980; background: linear-gradient(45deg,#e10980, #e10980);">
+                <abbr title="Nitrogen">N</abbr>
+            </th>
+            <th class="darkpink" style="background:#e10980; background: linear-gradient(45deg,#e10980, #e10980);">
+                <abbr title="Oxygen">O</abbr>
+            </th>
+            <th style="background:#4f80fc; background: linear-gradient(45deg, #4f80fc, #4f80fc);">
+                <abbr title="Fluorine">F</abbr>
+            </th>
+            <th class="purple" style="background:#a36ffd; background: linear-gradient(45deg,#a36ffd, #a36ffd);">
+                <abbr title="Neon">Ne</abbr>
+            </th>
+        </tr>
+        <tr>
+            <th class="yellow">
+                <abbr title="Sodium">Na</abbr>
+            </th>
+            <th class="orange">
+                <abbr title="Magnesium">Mg</abbr>
+            </th>
+            <th colspan="10"></th>
+            <th class="darkblue">
+                <abbr title="Aluminium">Al</abbr>
+            </th>
+            <th class="gray">
+                <abbr title="Silicon">Si</abbr>
+            </th>
+            <th class="darkpink">
+                <abbr title="Phosphorus">P</abbr>
+            </th>
+            <th class="darkpink">
+                <abbr title="Sulfur">S</abbr>
+            </th>
+            <th class="litblue">
+                <abbr title="Chlorine">Cl</abbr>
+            </th>
+            <th class="purple">
+                <abbr title="Argon">Ar</abbr>
+            </th>
+        </tr>
+        <tr>
+            <th class="yellow">
+                <abbr title="Potassium">K</abbr>
+            </th>
+            <th class="orange">
+                <abbr title="Calcium">Ca</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Scandium">Sc</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Titanium">Ti</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Vanadium">V</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Chromium">Cr</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Manganese">Mn</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Iron">Fe</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Cobalt">Co</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Nickel">Ni</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Copper">Cu</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Zinc">Zn</abbr>
+            </th>
+            <th class="darkblue">
+                <abbr title="Gallium">Ga</abbr>
+            </th>
+            <th class="gray">
+                <abbr title="Germanium">Ge</abbr>
+            </th>
+            <th class="gray">
+                <abbr title="Arsenic">As</abbr>
+            </th>
+            <th class="darkpink">
+                <abbr title="Selenium">Se</abbr>
+            </th>
+            <th class="litblue">
+                <abbr title="Bromine">Br</abbr>
+            </th>
+            <th class="purple">
+                <abbr title="Krypton">Kr</abbr>
+            </th>
+        </tr>
+        <tr>
+            <th class="yellow">
+                <abbr title="Rubidium">Rb</abbr>
+            </th>
+            <th class="orange">
+                <abbr title="Strontium">Sr</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Yttrium">Y</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Zirconium">Zr</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Niobium">Nb</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Molybdenum">Mo</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Technetium">Tc</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Ruthenium">Ru</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Rhodium">Rh</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Palladium">Pd</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Silver">Ag</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Cadmium">Cd</abbr>
+            </th>
+            <th class="darkblue">
+                <abbr title="Indium">In</abbr>
+            </th>
+            <th class="darkblue">
+                <abbr title="Tin">Sn</abbr>
+            </th>
+            <th class="gray">
+                <abbr title="Antimony">Sb</abbr>
+            </th>
+            <th class="gray">
+                <abbr title="Tellurium">Te</abbr>
+            </th>
+            <th class="litblue">
+                <abbr title="Iodine">I</abbr>
+            </th>
+            <th class="purple">
+                <abbr title="Xenon">Xe</abbr>
+            </th>
+        </tr>
+        <tr>
+            <th class="yellow">
+                <abbr title="Cesium">Cs</abbr>
+            </th>
+            <th class="orange">
+                <abbr title="Barium">Ba</abbr>
+            </th>
+            <th class="red">
+                <abbr title="HASSAANFARID">//</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Hafnium">Hf</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Tantalum">Ta</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Tungsten">W</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Rhenium">Re</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Osmium">Os</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Iridium">Ir</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Platinum">Pt</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Gold">Au</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Mercury">Hg</abbr>
+            </th>
+            <th class="darkblue">
+                <abbr title="Thallium">Tl</abbr>
+            </th>
+            <th class="darkblue">
+                <abbr title="Lead">Pb</abbr>
+            </th>
+            <th class="darkblue">
+                <abbr title="Bismuth">Bi</abbr>
+            </th>
+            <th class="gray">
+                <abbr title="Polonium">Po</abbr>
+            </th>
+            <th class="litblue">
+                <abbr title="Astatine">At</abbr>
+            </th>
+            <th class="purple">
+                <abbr title="Radon">Rn</abbr>
+            </th>
+        </tr>
+        <tr>
+            <th class="yellow">
+                <abbr title="Francium">Fr</abbr>
+            </th>
+            <th class="orange">
+                <abbr title="Radium">Ra</abbr>
+            </th>
+            <th class="green">
+                <abbr title="994">//</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Rutherfordium">Rf</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Dubnium">Db</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Seaborgium">Sg</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Bohrium">Bh</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Hassium">Hs</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Meitnerium">Mt</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Darmstadtium">Ds</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Roentgenium">Rg</abbr>
+            </th>
+            <th class="blue">
+                <abbr title="Copernicium">Cn</abbr>
+            </th>
+            <th class="darkblue">
+                <abbr title="Nihonium">Nh</abbr>
+            </th>
+            <th class="darkblue">
+                <abbr title="Flerovium">Fl</abbr>
+            </th>
+            <th class="darkblue">
+                <abbr title="Moscovium">Mc</abbr>
+            </th>
+            <th class="darkblue">
+                <abbr title="Livermorium">Lv</abbr>
+            </th>
+            <th class="litblue">
+                <abbr title="Tennessine">Ts</abbr>
+            </th>
+            <th class="purple">
+                <abbr title="Oganesson">Og</abbr>
+            </th>
+        </tr>
+    </table>
+    <br /><br />
+    <table style="margin: auto;">
+        <tr class="red">
+            <th>
+                <abbr title="Lanthanum">La</abbr>
+            </th>
+            <th>
+                <abbr title="Cerium">Ce</abbr>
+            </th>
+            <th>
+                <abbr title="Praseodymium">Pr</abbr>
+            </th>
+            <th>
+                <abbr title="Neodymium">Nd</abbr>
+            </th>
+            <th>
+                <abbr title="Promethium">Pm</abbr>
+            </th>
+            <th>
+                <abbr title="Samarium">Sm</abbr>
+            </th>
+            <th>
+                <abbr title="Europium">Eu</abbr>
+            </th>
+            <th>
+                <abbr title="Gadolinium">Gd</abbr>
+            </th>
+            <th>
+                <abbr title="Terbium">Tb</abbr>
+            </th>
+            <th>
+                <abbr title="Dysprosium">Dy</abbr>
+            </th>
+            <th>
+                <abbr title="Holmium">Ho</abbr>
+            </th>
+            <th>
+                <abbr title="Erbium">Er</abbr>
+            </th>
+            <th>
+                <abbr title="Thulium">Tm</abbr>
+            </th>
+            <th>
+                <abbr title="Ytterbium">Yb</abbr>
+            </th>
+            <th>
+                <abbr title="Lutetium">Lu</abbr>
+            </th>
+        </tr>
+        <tr class="green">
+            <th>
+                <abbr title="Actinium">Ac</abbr>
+            </th>
+            <th>
+                <abbr title="Thorium">Th</abbr>
+            </th>
+            <th>
+                <abbr title="Protactinium">Pa</abbr>
+            </th>
+            <th>
+                <abbr title="Uranium">U</abbr>
+            </th>
+            <th>
+                <abbr title="Neptunium">Np</abbr>
+            </th>
+            <th>
+                <abbr title="Plutonium">Pu</abbr>
+            </th>
+            <th>
+                <abbr title="Americium">Am</abbr>
+            </th>
+            <th>
+                <abbr title="Curium">Cm</abbr>
+            </th>
+            <th>
+                <abbr title="Berkelium">Bk</abbr>
+            </th>
+            <th>
+                <abbr title="Californium">Cf</abbr>
+            </th>
+            <th>
+                <abbr title="Einsteinium">Es</abbr>
+            </th>
+            <th>
+                <abbr title="Fermium">Fm</abbr>
+            </th>
+            <th>
+                <abbr title="Mendelevium">Md</abbr>
+            </th>
+            <th>
+                <abbr title="Nobelium">No</abbr>
+            </th>
+            <th>
+                <abbr title="Lawrencium">Lr</abbr>
+            </th>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,276 @@
+h1 {
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* #ahmed{
+
+    display: flex;
+    justify-items: center;
+    text-align: center;
+} */
+/* 
+#just{
+    display: flex;
+} */
+
+/* for elements color */
+
+
+.yellow {
+    background-color: rgb(210, 185, 44);
+}
+
+
+#period:hover {
+    color: red;
+    cursor: pointer;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #86dbff;
+    padding: 20px;
+}
+
+/* 
+
+#ptable{
+    /* background-color: #9c1371; light blue */
+/* box-shadow: 0px 2px 4px 4px black;
+}
+ */
+table {
+    
+    /* border-collapse: collapse; */
+    /* border-radius: 15px; */
+    /* overflow: hidden; important for rounding to work */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    empty-cells: hide;
+    /* text-align: center; */
+    /* background-color: rgb(254, 255, 218); */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+/* .center-table th[colspan="16"],
+.center-table th[colspan="10"] {
+    background-color: transparent;
+    border: none;
+    } */
+
+/* .center-table th:empty {
+        background-color: transparent;
+        border: none;
+} */
+
+/* .center-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+} */
+
+abbr{
+    text-decoration: none;
+}
+
+.hidro {
+    background-color: rgb(45, 202, 202);
+}
+
+.green {
+    background-color: #2727ff;
+}
+
+.red {
+    background-color: rgb(255, 51, 51);
+}
+
+.blue {
+    background-color: #1d65ff;
+}
+
+.orange {
+    background-color: orange;
+}
+
+#space {
+    /* border-radius: none; */
+    box-shadow: none;
+    /* transition: none; */
+}
+
+.purple {
+    background-color: #a36ffd;
+}
+
+.litblue {
+    background-color: #4f80fc;
+}
+
+.darkpink {
+    background-color: #e10980;
+}
+
+.gray {
+    background-color: #7d8281;
+}
+
+.darkblue {
+    background-color: #0a2053;
+}
+
+th {
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 18px;
+    min-width: 30px;
+    empty-cells: hide;
+    min-height: 44;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    border-radius: 100px;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 1);
+    transition: transform 0.5s, box-shadow 0.3s, background 0.5s;
+    color: #e0dde7d3;
+    cursor: pointer;
+}
+
+th:hover {
+    transform: scale(1.15);
+    z-index: 1;
+    box-shadow: 0 0 15px 5px #fbfffa, 0 0 25px 10px #0d0d0d;
+}
+
+
+
+
+
+
+
+
+
+tr:nth-child(1) th:nth-child(1) {
+    background: linear-gradient(360deg, #ae2020, #00b1fc);
+}
+
+tr:nth-child(1) th:nth-child(2) {
+    background: linear-gradient(360deg, #0aa9fe, #a2f1ff);
+}
+
+tr:nth-child(1) th:nth-child(3) {
+    background: linear-gradient(360deg, #ffffff, #f46818);
+}
+
+tr:nth-child(1) th:nth-child(4) {
+    background: linear-gradient(360deg, #f18585, #f4ff5f);
+}
+
+tr:nth-child(1) th:nth-child(5) {
+    background: linear-gradient(360deg, #ff0000, #02743f);
+}
+
+tr:nth-child(1) th:nth-child(6) {
+    background: linear-gradient(360deg, #ff7f7f, #3218f4);
+}
+
+tr:nth-child(1) th:nth-child(7) {
+    background: linear-gradient(360deg, #c765ff, #f4185e);
+}
+
+tr:nth-child(1) th:nth-child(8) {
+    background: linear-gradient(360deg, #fdb147, #f46818);
+}
+
+tr:nth-child(1) th:nth-child(9) {
+    background: linear-gradient(360deg, #c786ff, #f4083b);
+}
+
+tr:nth-child(1) th:nth-child(10) {
+    background: linear-gradient(360deg, #9eff02, #ff6912);
+}
+
+tr:nth-child(1) th:nth-child(11) {
+    background: linear-gradient(360deg, #006dfb, #940000);
+}
+
+tr:nth-child(1) th:nth-child(12) {
+    background: linear-gradient(360deg, #d391ff, #1500ff);
+}
+
+tr:nth-child(1) th:nth-child(13) {
+    background: linear-gradient(360deg, #9b10a5, #2c6004);
+}
+
+tr:nth-child(1) th:nth-child(14) {
+    background: linear-gradient(360deg, #8c0404, #ffc7a6);
+}
+
+tr:nth-child(1) th:nth-child(15) {
+    background: linear-gradient(360deg, #e8ff67, #ff0000);
+}
+
+tr:nth-child(2) th:nth-child(1) {
+    background: linear-gradient(360deg, #ae2020, #00b1fc);
+}
+
+tr:nth-child(2) th:nth-child(2) {
+    background: linear-gradient(360deg, #0aa9fe, #a2f1ff);
+}
+
+tr:nth-child(2) th:nth-child(3) {
+    background: linear-gradient(360deg, #ffffff, #f46818);
+}
+
+tr:nth-child(2) th:nth-child(4) {
+    background: linear-gradient(360deg, #f18585, #f4ff5f);
+}
+
+tr:nth-child(2) th:nth-child(5) {
+    background: linear-gradient(360deg, #ff0000, #02743f);
+}
+
+tr:nth-child(2) th:nth-child(6) {
+    background: linear-gradient(360deg, #ff7f7f, #3218f4);
+}
+
+tr:nth-child(2) th:nth-child(7) {
+    background: linear-gradient(360deg, #c765ff, #f4185e);
+}
+
+tr:nth-child(2) th:nth-child(8) {
+    background: linear-gradient(360deg, #fdb147, #f46818);
+}
+
+tr:nth-child(2) th:nth-child(9) {
+    background: linear-gradient(360deg, #c786ff, #f4083b);
+}
+
+tr:nth-child(2) th:nth-child(10) {
+    background: linear-gradient(360deg, #9eff02, #ff6912);
+}
+
+tr:nth-child(2) th:nth-child(11) {
+    background: linear-gradient(360deg, #006dfb, #940000);
+}
+
+tr:nth-child(2) th:nth-child(12) {
+    background: linear-gradient(360deg, #d391ff, #1500ff);
+}
+
+tr:nth-child(2) th:nth-child(13) {
+    background: linear-gradient(360deg, #9b10a5, #2c6004);
+}
+
+tr:nth-child(2) th:nth-child(14) {
+    background: linear-gradient(360deg, #8c0404, #ffc7a6);
+}
+
+tr:nth-child(2) th:nth-child(15) {
+    background: linear-gradient(360deg, #e8ff67, #ff0000);
+}
